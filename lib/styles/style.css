@@ -1,0 +1,8 @@
+@import 'card.css';
+
+.container {
+    margin: 10px auto;
+    height: 80vh;
+    width: 50vw;
+    background-color: bisque;
+}
