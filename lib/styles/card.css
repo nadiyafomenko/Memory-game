@@ -1,10 +1,16 @@
 @import "~normalize.css";
 
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 300px;
+    min-width: 100px;
+    height: 150px;
     perspective: 1000px;
+    margin: auto;
   }
   
   .flip-card-inner {
@@ -17,7 +23,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   
-  .flip-card:hover .flip-card-inner {
+  .rotated {
     transform: rotateY(180deg);
   }
   

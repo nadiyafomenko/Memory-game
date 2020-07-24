@@ -1,8 +1,17 @@
 @import 'card.css';
 
-.container {
-    margin: 10px auto;
-    height: 80vh;
-    width: 50vw;
-    background-color: bisque;
+/* .container{
+    width: 100vh;
+    height: 100vw;
+} */
+
+.board {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    background-color: lightblue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
 }

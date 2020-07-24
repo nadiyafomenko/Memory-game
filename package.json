@@ -7,11 +7,12 @@
     "dev": "nodemon lib/server.js",
     "webpack": "webpack -wd --watch"
   },
-  "author": "Nadiya Fomenko <nadiya.fomenko@gmail.com>",
+  "author": "Nadiia Fomenko <nadiya.fomenko@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
