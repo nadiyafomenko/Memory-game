@@ -1,0 +1,44 @@
+.menu-board {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.welcome {
+    font-size: 54px;
+    color: #003b2f;
+}
+.score {
+    font-size: 24px;
+}
+.btn-group {
+    position: relative;
+    top: 15%
+}
+.btn-checkbox {
+    margin: 25px; 
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #00735c;
+    border-radius: 5px !important;
+    color: #00735c;
+}
+.btn-checkbox:hover {
+    background-color: rgba(0, 115, 92, 0.7);;
+    color: #e9f0ef;
+}
+
+.btn-start {
+    position: relative;
+    top: 20%;
+    background-color: #00735c;
+    color: #e9f0ef;
+    padding: 10px 40px;
+    border-radius: 5px !important;
+    color: #e9f0ef;
+}
+.btn-start:hover{
+    background-color: #003b2f;
+}

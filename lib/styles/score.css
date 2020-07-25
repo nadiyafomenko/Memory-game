@@ -1,0 +1,19 @@
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%;
+    right: -30%;
+    height: 50px;
+    width: 50px;
+}
+.score {
+    color:  #00735c;
+    font-size: 24px;
+}
+.score-counter {
+    color:  #00735c;;
+    font-size: 32px;
+}
