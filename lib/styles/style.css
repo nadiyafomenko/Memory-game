@@ -1,17 +1,25 @@
-@import 'card.css';
+@import "~normalize.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
-/* .container{
-    width: 100vh;
-    height: 100vw;
-} */
+@import 'card.css';
+@import 'score.css';
+
+
+html {
+    background-color: #e9f0ef;
+}
 
 .board {
     position: absolute;
     width: 50%;
     height: 80%;
-    background-color: lightblue;
+    background-color: #fafffe;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 25%;
     margin-right: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
 }

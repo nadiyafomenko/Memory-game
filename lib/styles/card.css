@@ -1,16 +1,9 @@
-@import "~normalize.css";
-
-.card-container {
-  display: flex;
-  flex-direction: row;
-  margin: 5px;
-}
 .flip-card {
     background-color: transparent;
     min-width: 100px;
     height: 150px;
     perspective: 1000px;
-    margin: auto;
+    margin-bottom: 10px;
   }
   
   .flip-card-inner {
@@ -43,12 +36,12 @@
   }
 
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #4eccb3;
+    color: #00735c;
   }
   
   .flip-card-back {
-    background-color: #2980b9;
+    background-color: #00735c;
     color: white;
     transform: rotateY(180deg);
   }
