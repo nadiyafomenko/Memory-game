@@ -5,7 +5,11 @@
     flex-direction: column;
     position: absolute;
     bottom: 10%;
+<<<<<<< HEAD
     right: -30%;
+=======
+    right: 5%;
+>>>>>>> 7c9021c9329673c75b8498b74cf2401d22057a8a
     height: 50px;
     width: 50px;
 }

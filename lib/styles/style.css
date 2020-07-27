@@ -3,7 +3,11 @@
 
 @import 'card.css';
 @import 'score.css';
+<<<<<<< HEAD
 @import 'menu.css';
+=======
+
+>>>>>>> 7c9021c9329673c75b8498b74cf2401d22057a8a
 
 html {
     background-color: #e9f0ef;
@@ -13,10 +17,19 @@ html {
     position: absolute;
     width: 50%;
     height: 80%;
+<<<<<<< HEAD
+=======
+    background-color: #fafffe;
+>>>>>>> 7c9021c9329673c75b8498b74cf2401d22057a8a
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 1%;
     padding-bottom: 1%;
+<<<<<<< HEAD
+=======
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+>>>>>>> 7c9021c9329673c75b8498b74cf2401d22057a8a
 }
