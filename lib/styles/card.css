@@ -1,47 +1,51 @@
 .flip-card {
-    background-color: transparent;
-    min-width: 100px;
-    height: 150px;
-    perspective: 1000px;
-    margin-bottom: 10px;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
-  .rotated {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .flip-card-back img {
-    height: 100%;
-    width: auto;
-  }
-
-  .flip-card-front {
-    background-color: #4eccb3;
-    color: #00735c;
-  }
-  
-  .flip-card-back {
-    background-color: #00735c;
-    color: white;
-    transform: rotateY(180deg);
-  }
+  background-color: transparent;
+  perspective: 1000px;
+  margin-bottom: 10px;
+}
+.easy-card {
+  width: 100px;
+  height: 150px;
+}
+.medium-card {
+  width: 85px;
+  height: 135px;
+}
+.hard-card {
+  width: 70px;
+  height: 120px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.rotated {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  cursor: pointer;
+}
+.flip-card-back img {
+  height: 100%;
+  width: auto;
+}
+.flip-card-front {
+  background-color: #4eccb3;
+  color: #00735c;
+}
+.flip-card-back {
+  background-color: #00735c;
+  color: white;
+  transform: rotateY(180deg);
+}

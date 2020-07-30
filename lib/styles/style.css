@@ -3,33 +3,31 @@
 
 @import 'card.css';
 @import 'score.css';
-<<<<<<< HEAD
 @import 'menu.css';
-=======
-
->>>>>>> 7c9021c9329673c75b8498b74cf2401d22057a8a
 
 html {
     background-color: #e9f0ef;
 }
-
 .board {
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 80%;
-<<<<<<< HEAD
-=======
-    background-color: #fafffe;
->>>>>>> 7c9021c9329673c75b8498b74cf2401d22057a8a
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-<<<<<<< HEAD
-=======
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 15px;
->>>>>>> 7c9021c9329673c75b8498b74cf2401d22057a8a
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.container {
+    display: grid;
+}
+.easy-container {
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-gap: 10px;
+}
+.medium-container {
+    grid-template-columns: repeat(auto-fit,minmax(85px,1fr));
+    grid-gap: 10px;
+}
+.hard-container {
+    grid-template-columns: repeat(auto-fit,minmax(70px,1fr));
+    grid-gap: 10px;
 }
