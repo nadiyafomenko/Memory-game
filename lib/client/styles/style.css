@@ -1,13 +1,17 @@
 @import "~normalize.css";
 @import '~bootstrap/dist/css/bootstrap.min.css';
+/* 
+@font-face {
+    font-family: "Dosis";
+    src: url('../assets/fonts/Dosis-Regular.ttf');
+} */
 
 @import 'card.css';
 @import 'score.css';
 @import 'menu.css';
+@import 'form.css';
 
-html {
-    background-color: #e9f0ef;
-}
+
 .board {
     position: absolute;
     width: 60%;

@@ -5,14 +5,23 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
   mode: 'development',
-  entry: './lib/components/Index.js',
+  entry: {
+    game: './lib/client/components/GameControl.js',
+    login: './lib/client/components/Login.js',
+    register: './lib/client/components/Register.js'
+  },
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: '[name].bundle.js'
   },  
   devServer: {
     port: 3000,
     hot: isDev
+  },
+  resolve: {
+    alias: {
+      Сomponents: path.resolve(__dirname, './lib/client/components/')
+    }
   },
   module: {
     rules: [

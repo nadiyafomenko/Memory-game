@@ -1,0 +1,20 @@
+.register-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.input {
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #00735c;
+    outline: none;
+    transition: 0.2s;
+}
