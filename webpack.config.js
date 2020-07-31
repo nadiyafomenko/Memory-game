@@ -8,7 +8,8 @@ module.exports = {
   entry: {
     game: './lib/client/components/GameControl.js',
     login: './lib/client/components/Login.js',
-    register: './lib/client/components/Register.js'
+    register: './lib/client/components/Register.js',
+    welcome: './lib/client/components/WelcomePage.js'
   },
   output: {
     path: path.resolve(__dirname, 'public'),

@@ -1,0 +1,15 @@
+html {
+    overflow: hidden;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-inner {
+    transition: transform 0.4s;
+}
+.flip-card {
+    opacity: 0.2;
+}
+.flip-card-front {
+    background-color: #c3e0d8;
+}

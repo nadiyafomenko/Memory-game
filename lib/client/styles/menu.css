@@ -39,6 +39,8 @@
     padding: 10px 40px;
     border-radius: 5px !important;
     color: #e9f0ef;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .btn-start:hover{
     background-color: #003b2f;

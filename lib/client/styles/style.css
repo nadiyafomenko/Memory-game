@@ -1,17 +1,19 @@
 @import "~normalize.css";
-@import '~bootstrap/dist/css/bootstrap.min.css';
-/* 
+
 @font-face {
-    font-family: "Dosis";
-    src: url('../assets/fonts/Dosis-Regular.ttf');
-} */
+    font-family: Quicksand;
+    src: url('../assets/fonts/Quicksand-Light.ttf');
+}
 
 @import 'card.css';
 @import 'score.css';
 @import 'menu.css';
 @import 'form.css';
+@import 'welcome.css';
 
-
+* {
+    font-family: Quicksand;
+}
 .board {
     position: absolute;
     width: 60%;
