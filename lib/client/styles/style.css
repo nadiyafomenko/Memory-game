@@ -2,19 +2,32 @@
 
 @font-face {
     font-family: Quicksand;
-    src: url('../assets/fonts/Quicksand-Light.ttf');
+    src: url('../assets/fonts/Quicksand-Bold.ttf');
 }
 
 @import 'card.css';
-@import 'score.css';
-@import 'menu.css';
 @import 'form.css';
-@import 'welcome.css';
+@import 'btn.css';
 
 * {
     font-family: Quicksand;
 }
+*::selection {
+    color: #e9f0ef;
+    background: #00735c;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    background-color: rgba(198, 222, 198, 0.2);
+}
 .board {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     position: absolute;
     width: 60%;
     height: 80%;
@@ -22,18 +35,18 @@
     left: 50%;
     transform: translate(-50%);
 }
-.container {
-    display: grid;
-}
 .easy-container {
+    display: grid;
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     grid-gap: 10px;
 }
 .medium-container {
+    display: grid;
     grid-template-columns: repeat(auto-fit,minmax(85px,1fr));
     grid-gap: 10px;
 }
 .hard-container {
+    display: grid;
     grid-template-columns: repeat(auto-fit,minmax(70px,1fr));
     grid-gap: 10px;
 }

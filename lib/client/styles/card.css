@@ -2,6 +2,7 @@
   background-color: transparent;
   perspective: 1000px;
   margin-bottom: 10px;
+
 }
 .easy-card {
   width: 100px;
@@ -14,6 +15,7 @@
 .hard-card {
   width: 70px;
   height: 120px;
+
 }
 .flip-card-inner {
   position: relative;
@@ -22,7 +24,6 @@
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .rotated {
   transform: rotateY(180deg);
@@ -41,11 +42,15 @@
   width: auto;
 }
 .flip-card-front {
-  background-color: #4eccb3;
-  color: #00735c;
+  background-color: rgba(141, 177, 129, 0.8);
+  border-radius: 5px;
+  background: linear-gradient(145deg, #7f9f74, #97bd8a);
+  box-shadow:  8px 8px 24px rgba(141, 177, 129, 0.8), 
+             -8px -8px 24px rgba(141, 177, 129, 0.2);
 }
 .flip-card-back {
-  background-color: #00735c;
-  color: white;
+  border-radius: 5px;
   transform: rotateY(180deg);
+  box-shadow:  8px 8px 24px rgba(141, 177, 129, 0.8), 
+  -8px -8px 24px rgba(141, 177, 129, 0.2);
 }

@@ -1,0 +1,36 @@
+.btn {
+    border-radius: 5px;
+    color: #e9f0ef;
+    letter-spacing: -0.2px;
+    padding: 10px 40px;
+    background-color: rgba(141, 177, 129, 0.8);
+    box-shadow:  8px 8px 32px rgba(198, 222, 198, 0.6), 
+                -8px -8px 32px rgba(198, 222, 198, 0.4);
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+}
+.btn-start {
+    padding: 10px 40px;
+}
+.btn-form {
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgba(141, 177, 129, 1);
+}
+.btn-checkbox {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgba(198, 222, 198, 1);
+}
+.btn-checkbox:hover {
+    background-color: transparent !important;
+    color: rgba(141, 177, 129, 1) !important;
+}
+
+.btn-checkbox:focus {
+    background-color: transparent !important;
+    color: rgba(141, 177, 129, 1) !important;
+}
