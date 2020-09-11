@@ -21,6 +21,7 @@ For development, you will only need Node.js and a node global package, installed
 ## Running the project
 
     $ git remote add origin forfend
-    $ git commit -am "&#10084;"
+    $ git add me
+    $ git commit -m "   "
     $ git push
    
