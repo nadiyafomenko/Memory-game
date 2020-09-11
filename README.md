@@ -12,7 +12,6 @@ For development, you will only need Node.js and a node global package, installed
 
   Just go on [official Node.js website](https://nodejs.org/) and download the installer
 
-
 ## Install
 
     $ git clone https://github.com/nadiyafomenko/Memory-game
@@ -21,5 +20,7 @@ For development, you will only need Node.js and a node global package, installed
 
 ## Running the project
 
-    $ npm webpack
-    $ npm start
+    $ git remote add origin forfend
+    $ git commit -am "&#10084;"
+    $ git push
+   
