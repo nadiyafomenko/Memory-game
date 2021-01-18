@@ -20,5 +20,5 @@ For development, you will only need Node.js and a node global package, installed
 
 ## Running the project
 
-    $ npm run start
-   
+    $ npm run webpack
+    $ npm run dev
